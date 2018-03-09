@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title>Trening Js</title>
+
+	<link rel="stylesheet" href="style.css" type="text/css" /> 
+	<script type="text/javascript"  src="skrypt.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Anton&amp;subset=latin-ext" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="budzik">12:02:12</div>
+
+<div id="choose_time">
+	<span id="napis">Godzina alarmu</span>
+	<div class="set_time">
+		
+		<select id="godzina">	</select>
+		<div class="select_arrow"></div>
+	</div>
+	<div class="set_time">
+		<select id="minuta">	</select>
+		<div class="select_arrow"></div>
+	</div>
+	<div class="set_time">
+			<select id="sekunda">	</select>
+			<div class="select_arrow"></div>
+		</div>
+</div>
+
+<div id="choose_sound">
+	<span id="napis">Wybierz dźwięk alarmu</span>
+	<div class="set_time">
+		<select id="sounds">
+			<option value="alarm_clock">&nbsp;&nbsp;&nbsp;Alarm Clock</option>
+			<option value="pager">&nbsp;&nbsp;&nbsp;Pager</option>
+			<option value="ship">&nbsp;&nbsp;&nbsp;Ship Horn</option>
+			<option value="watch_alarm">&nbsp;&nbsp;&nbsp;Watch Alarm</option>
+			<option value="tornado">&nbsp;&nbsp;&nbsp;Tornado Alarm</option>
+		</select>
+	
+	</div>
+</div>
+<button class="btn set_btn">Ustaw alarm</button>
+<button class="btn reset_btn">Wyłącz alarm</button>
+
+<div class="zegar">
+	<div class="time">
+		<div class="t" id="hours_t"></div>
+		<div class="t" id="hours_u"></div>
+	</div>
+	<div class="divider"></div>
+	<div class="time">
+		<div class="t" id="minutes_t"></div>
+		<div class="t" id="minutes_u"></div>
+	</div>
+	<div class="divider"></div>
+	<div class="time">
+		<div class="t" id="seconds_t"></div>
+		
+		<div class="t" id="seconds_u"></div>
+	</div>
+</div>
+
+	
+
+</body>
+</html>
