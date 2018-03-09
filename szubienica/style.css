@@ -1,0 +1,103 @@
+body
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.game 
+{
+    /* text-align: center; */
+}
+.button
+{
+    width:50px;
+    height: 50px;
+    margin:5px;
+    /* pointer-events: none; */
+    outline:none;
+    border:2px solid rgb(175, 175, 175);
+    background-color: rgb(218, 218, 218);
+    border-radius: 15%;
+    font-size:20px;
+    font-weight: bold;
+}
+.btn-active
+{
+    border:2px solid rgb(0, 204, 27);
+    background-color: rgb(123, 255, 118);
+}
+.btn-active:hover
+{
+    cursor: pointer;
+    border:2px solid rgb(65, 204, 0);
+    background-color: rgb(73, 252, 66);
+    transition: all 0.2s ease-in-out;
+}
+.Alphabet
+{
+    width:480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.GameSentence
+{
+    width:100%;
+    text-align: center;
+    overflow: hidden;
+    margin:30px 0;
+}
+
+.SentenceBlock
+{
+    width: 50px;
+    height: 50px;
+    margin:5px;
+    background-color: rgb(211, 211, 211);
+    border: 2px solid  rgb(167, 167, 167);
+    font-size:20px;
+    font-weight: bold;
+    line-height: 50px;
+    display:inline-flex;
+    vertical-align: top;
+    justify-content: center;
+    align-items: center;
+}
+
+.endline
+{
+    clear: both;
+}
+.Counter
+{
+    background-color: rgb(249, 255, 164);
+    border: 3px solid #ffb167;
+    width:60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 24px;
+    margin:20px auto;
+}
+.game-start
+{
+    width:150px;
+    height: 40px;
+    margin:20px auto;
+    display: block;
+    outline: none;
+    background-color: #ff4141;
+    border:2px solid #b80000;
+    border-radius: 7%;
+    font-size:18px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+.game-start:hover
+{
+    background-color: #fc2f2f;
+    border:2px solid #a00101;
+    cursor: pointer;
+    
+}
