@@ -1,0 +1,79 @@
+body
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(49, 36, 36); */
+}
+.container
+{
+    width: 500px;
+    min-height: 200px;
+    margin: 20px auto;
+    
+}   
+.GameBoard
+{
+    width:500px;
+    background-color:rgb(255, 229, 182);
+    border:1px solid rgb(255, 186, 60);
+    margin:0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.GameTile
+{
+    width:82px;
+    height: 82px;
+    background-color: rgb(255, 184, 53);
+    margin:5px;
+    border:4px solid rgb(255, 123, 0);
+    text-align: center;
+    font-size: 40px;
+    color:rgb(255, 123, 0);
+    display:inline-flex;
+    vertical-align: top;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.TileActive:hover svg
+{
+    transform: rotate(8deg);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.TileActive:hover
+{
+    cursor: pointer;
+}
+.GameTile svg
+{
+    pointer-events: none;
+}
+.game-start
+{
+    width:150px;
+    height: 35px;
+    display: block;
+    margin: 20px auto;
+    font-size: 18px;
+    border: 2px solid rgb(3, 181, 0);
+    border-radius: 6%;
+    font-weight: bold;
+    background-color: #44ff39;;
+    outline: none;
+    transition: 0.2s all ease-in-out;
+}
+.game-start:hover
+{
+    border-color: rgb(2, 150, 0);
+    background-color: #17f30b;
+    cursor: pointer;
+}
+img
+{
+    width:82px;
+    height: 82px;
+}
